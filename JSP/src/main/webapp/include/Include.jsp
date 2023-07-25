@@ -10,5 +10,5 @@
 Hello world my first JSP
 
 </body>
-<%@ include file="Footer.jsp"%>
+<%@ include file="IncludeFooter.jsp"%>
 </html>
