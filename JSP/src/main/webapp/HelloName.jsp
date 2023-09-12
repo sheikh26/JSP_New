@@ -14,16 +14,14 @@
 
 <%
 
-String strName = request.getParameter("fName") + " " + request.getParameter("lName") ;
+String strFName = request.getParameter("fName");
+String strLName = request.getParameter("lName");
 
-for(int i=0; i<5 ;i++) {
 %>
 
-<H1> <%= i %>  Hello JSP - <%= strName %></H1> 
+<H1> Hello - <%= strFName %> <%= strLName %></H1> 
 
-<%
-}
-%>
+
 
 </BODY>
 
