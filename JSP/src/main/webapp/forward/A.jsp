@@ -8,8 +8,8 @@ copyright (c) Java Factory Indore Indore
 
  -->
 <%
-System.out.println("This is A JSP " + request.getParameter("param"));
- request.setAttribute("A","Value Set By A");
+String strFName = request.getParameter("param");
+ request.setAttribute("A",strFName);
  %>
 
 <%-- Test forward through JSP --%>
